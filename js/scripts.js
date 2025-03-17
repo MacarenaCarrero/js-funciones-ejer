@@ -13,3 +13,7 @@ function begoPencil(box, pencils) {
   console.log("El total de lápices es " + result);
 }
 begoPencil(5, 12);
+
+//tercero
+
+function  runSabrina()
