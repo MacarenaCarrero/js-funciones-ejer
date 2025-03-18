@@ -24,7 +24,7 @@ function lessNumbers(numberA, numberB) {
 
 //uno
 function camilaJob(calls, hours) {
-  const callsCamila = dividerNumber(numberA, numberB);
+  const callsCamila = dividerNumber(calls, hours);
   console.log("El total de llamadas que atiende es " + callsCamila);
 }
 
@@ -186,7 +186,7 @@ knives(5, 18);
 //veintitres
 
 function bagsCookies(cookies, bags) {
-  const addCookies = dividerNumber;
+  const addCookies = dividerNumber(cookies, bags);
   console.log("Llenará un total de " + addCookies + " bolsas.");
 }
 bagsCookies(480, 40);
@@ -208,7 +208,7 @@ saving(120, 85);
 //veintiseis
 function candyMaca(candy, distribution) {
   const distributionCandyMaca = restNumbers(candy, distribution);
-  console.log("Sobrará " + candyMaca + " caramelo.");
+  console.log("Sobrará " + distributionCandyMaca + " caramelo.");
 }
 candyMaca(73, 6);
 //veintisiete
